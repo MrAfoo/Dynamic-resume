@@ -1,6 +1,4 @@
-/* src/styles.css */
 
-/* Reset some default styles */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -11,14 +9,14 @@ h1, h2 {
   color: #333;
 }
 
-/* Container styles */
+
 .container {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
 
-/* Form styles */
+
 form {
   background: #fff;
   padding: 20px;
@@ -50,7 +48,7 @@ button:hover {
   background: #0056b3;
 }
 
-/* Resume Container */
+
 #resume {
   max-width: 800px;
   margin: auto;
@@ -91,7 +89,7 @@ button:hover {
   margin-top: 20px;
 }
 
-/* Button Styles */
+
 .button-group {
   margin-top: 20px;
 }
@@ -112,14 +110,14 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Separator for sections */
+
 hr {
   border: none;
   border-top: 1px solid #ddd;
   margin: 15px 0;
 }
 
-/* Print-friendly styles */
+
 @media print {
   body {
       -webkit-print-color-adjust: exact;
@@ -130,12 +128,12 @@ hr {
       box-shadow: none;
   }
   button {
-      display: none; /* Hide buttons on print */
+      display: none; 
   }
 }
 
 
-/* Form Container Styles */
+
 .form-container {
   background: #fff;
   padding: 20px;
@@ -144,91 +142,90 @@ hr {
   margin-top: 20px;
 }
 
-/* Form Heading Styles */
+
 .form-container h1 {
-  color: black; /* Primary color */
-  margin-bottom: 20px; /* Space below the title */
-  text-align: center; /* Center the title */
-}
+  color: black;
+  margin-bottom: 20px; 
+  text-align: center; 
 
-/* Personal Information Section Styles */
+
 .personal-info-section {
-  margin-bottom: 20px; /* Space below the section */
+  margin-bottom: 20px; 
 }
 
-/* Section Heading Styles */
+
 .personal-info-section h2,
 .education-section h2,
 .work-experience-section h2,
 .skills-section h2 {
-  color: #0056b3; /* Color applied from Create Resume button */
+  color: #0056b3; 
 }
 
-/* Subheading Styles */
+
 .input-group label {
-  display: block; /* Each label on a new line */
-  font-weight: bold; /* Bold text for labels */
-  color: #3693f0; /* Dark blue for subheadings */
-  margin-bottom: 5px; /* Space below labels */
+  display: block; 
+  font-weight: bold;
+  color: #3693f0; 
+  margin-bottom: 5px; 
 }
 
-/* Input Group Styles */
+
 .input-group {
-  margin-bottom: 15px; /* Space between input groups */
+  margin-bottom: 15px; 
 }
 
-/* Input and Textarea Styles */
+
 .form-container input,
 .form-container textarea {
   width: 100%;
   padding: 10px;
-  margin: 10px 0; /* Space between fields */
-  border: 1px solid #007bff; /* Blue border for inputs */
-  border-radius: 4px; /* Rounded corners */
-  font-size: 16px; /* Font size for better readability */
-  background-color: #f9f9f9; /* Light background for inputs */
-  transition: border-color 0.3s; /* Smooth border color transition */
+  margin: 10px 0;
+  border: 1px solid #007bff;
+  border-radius: 4px; 
+  font-size: 16px; 
+  background-color: #f9f9f9; 
+  transition: border-color 0.3s;
 }
 
-/* Input focus effect */
+
 .form-container input:focus,
 .form-container textarea:focus {
-  border-color: #0056b3; /* Darker blue on focus */
-  outline: none; /* Remove default outline */
+  border-color: #0056b3; 
+  outline: none; 
 }
 
-/* Blue Line Separator */
+
 .separator {
-  border: none; /* No border */
-  height: 2px; /* Height of the line */
-  background-color: #007bff; /* Blue color */
-  margin: 20px 0; /* Space around the line */
+  border: none; 
+  height: 2px; 
+  background-color:
+  margin: 20px 0; 
 }
 
-/* Button Styles */
+
 .create-resume-button {
-  background-color: #007bff; /* Primary color */
-  color: #fff; /* White text */
+  background-color: #007bff; 
+  color: #fff; 
   border: none;
   padding: 10px;
   border-radius: 4px;
-  cursor: pointer; /* Pointer cursor on hover */
-  width: 100%; /* Full width */
-  font-size: 16px; /* Font size */
+  cursor: pointer; 
+  width: 100%; 
+  font-size: 16px; 
 }
 
 .create-resume-button:hover {
-  background-color: #0056b3; /* Darker shade on hover */
+  background-color: #0056b3; 
 }
 
 .welcome-container {
   display: flex;
   flex-direction: column;
-  align-items: center;  /* Center horizontally */
-  justify-content: center;  /* Center vertically */
-  height: 100vh; /* Full viewport height */
-  text-align: center; /* Center text */
-  background-color: #f4f4f4; /* Light background */
+  align-items: center;  
+  justify-content: center;  
+  height: 100vh; 
+  text-align: center; 
+  background-color: #f4f4f4;
 }
 
 .welcome-container h1 {
@@ -238,25 +235,25 @@ hr {
 }
 
 .create-resume-button {
-  background-color: #007bff; /* Primary color */
-  color: #fff; /* White text */
+  background-color: #007bff;
+  color: #fff; 
   border: none;
-  padding: 10px 20px; /* Adjusts padding */
+  padding: 10px 20px; 
   border-radius: 4px;
-  cursor: pointer; /* Pointer cursor on hover */
-  font-size: 26px; /* Font size */
-  width: auto; /* Adjusts to content width */
+  cursor: pointer; 
+  font-size: 26px; 
+  width: auto; 
 }
 
 .create-resume-button:hover {
-  background-color: #0056b3; /* Darker blue on hover */
+  background-color: #0056b3; 
 }
 
 
 @media (max-width: 600px) {
   .create-resume-button {
-      width: 100%; /* Full width on small screens */
-      margin-bottom: 10px; /* Space below button */
+      width: 100%; 
+      margin-bottom: 10px; 
   }
 }
 
