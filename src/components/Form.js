@@ -1,4 +1,4 @@
-// src/components/Form.js
+
 import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
@@ -12,7 +12,7 @@ const Form = ({ onCreateResume }) => {
     const navigate = useNavigate();
     const location = useLocation();
 
-    // Check if we're editing an existing resume
+   
     useEffect(() => {
         if (location.state) {
             const { name, email, username, education, workExperience, skills } = location.state;
@@ -26,7 +26,7 @@ const Form = ({ onCreateResume }) => {
     }, [location.state]);
 
     const handleSubmit = (e) => {
-        e.preventDefault(); // Prevent default form submission
+        e.preventDefault(); 
         const resumeData = { name, email, username, education, workExperience, skills };
         onCreateResume(username, resumeData);
         navigate(`/resume/${username}`);
