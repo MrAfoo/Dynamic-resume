@@ -1,4 +1,4 @@
-// src/components/Resume.js
+
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import html2pdf from 'html-to-pdf-js';
